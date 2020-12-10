@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+nav {
+  font-family: 'Ranchers',
+  cursive;
+  font-size: 3rem;
+  color:white;
+
+  text-align: center;
+  padding: 1em;
+
+  background-color: mediumslateblue;
+}
