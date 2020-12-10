@@ -13,3 +13,107 @@ nav {
 
   background-color: mediumslateblue;
 }
+
+.opener {
+  text-align: center;
+  color: mediumslateblue;
+  font-family: 'Mukta',
+  sans-serif;
+}
+
+.card {
+  width: 40ch;
+
+  
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  margin: auto;
+
+}
+
+.profpic {
+  width: 100px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+  border: 4px solid mediumslateblue;
+
+}
+
+h1 {
+  color: white;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.topprofile {
+
+  font-family: 'Ranchers',
+  cursive;
+  background-color: mediumslateblue;
+  height: 157px;
+
+  background-size: 100%;
+  margin: auto;
+
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Mukta',
+  sans-serif;
+
+  color: mediumslateblue;
+}
+
+
+.links {
+  display: inline-grid;
+  grid-template-columns: repeat(2, [col-start] 1fr);
+  grid-gap: 3px;
+
+  margin: auto;
+
+  width: 40vw;
+}
+
+
+
+hr {
+  color:lightsteelblue;
+  
+}
+
+
+.bottomprofile {
+
+  width: 40ch;
+  height: 270px;
+
+  background-color: white;
+  margin: auto;
+
+
+}
+
+img {
+  height: 100px;
+  width: 100px;
+
+  border: 2px solid white;
+  margin: auto;
+
+}
+
+img:hover {
+  border: 4px solid aqua;
+}
