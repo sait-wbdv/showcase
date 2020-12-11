@@ -54,9 +54,13 @@ text-align: center;
 
 .name {
   color: white;
+  background-color: mediumslateblue;
+  border-radius: 15%;
 
  display: flex;
  justify-content: center;
+
+ margin: 0;
 
 }
 
