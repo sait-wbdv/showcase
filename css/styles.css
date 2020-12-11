@@ -27,6 +27,7 @@ text-align: center;
 
 .card {
   width: 35ch;
+ 
 
   border-radius: 5%;
   
@@ -96,16 +97,18 @@ a:hover {
 }
 
 .links {
-  display: grid;
-  grid-template-columns: repeat(2, [col-start] 1fr);
-  grid-gap: 3px;
-
-  margin: auto;
-  align-self: center;
+  display: flex;
+  margin: 0;
+  justify-content: center;
 }
 
 .linking {
   text-align: center;
+  margin: 5px;
+
+  font-size: 1.5rem;
+  font-family: 'Ranchers',
+  cursive;
 }
 
 
