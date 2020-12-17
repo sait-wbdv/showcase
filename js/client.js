@@ -1,6 +1,6 @@
 // Fetch implementation
 
-fetch('https://skulls-standings.herokuapp.com/api/v0/students/')
+fetch('https://sait-wbdv.herokuapp.com/api/v0/students/')
 .then(res => {
   return res.json();
 })
