@@ -1,3 +1,4 @@
+import { group1 , group2 } from "./finals.mjs";
 // Fetch implementation
 
 fetch('https://skulls-standings.herokuapp.com/api/v0/students/')
@@ -7,8 +8,9 @@ fetch('https://skulls-standings.herokuapp.com/api/v0/students/')
 .then(students => {
   let output = '';
 
-  students.forEach(student => {
-    let cardGallery = document.querySelector('.grid-container');
+  let cardGallery = document.querySelector('.grid-container');
+  group1.forEach( handle => {
+    let student = students.find(student => student.handle == handle);
     let trophies = [];
     let firstName = student.name.split(' ')[0].toLowerCase();
 
@@ -40,6 +42,6 @@ fetch('https://skulls-standings.herokuapp.com/api/v0/students/')
   </div>
     `
 
-    cardGallery.innerHTML = output;
   });
+  cardGallery.innerHTML = output;
 });
