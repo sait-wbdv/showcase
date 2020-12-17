@@ -1,13 +1,13 @@
-const group1 = [
+const round1 = [
   'jayden',
   'mayorbcode',
   'mike',
   'brett',
-  'josh',
+  'console.logger',
   'lauren'
 ];
 
-const group2 = [
+const round2 = [
   {
     name: 'Petal Post',
     members: [
@@ -19,4 +19,4 @@ const group2 = [
   'nhat'
 ];
 
-export { group1, group2 };
+export { round1, round2 };
