@@ -50,7 +50,7 @@ fetch('https://sait-wbdv.herokuapp.com/api/v0/students/')
       }
     });
 
-    output += outputCard(student);
+    output += outputCard(student)
 
   });
   cardGallery.innerHTML = output;
